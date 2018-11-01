@@ -1,7 +1,9 @@
-package com.globizs.uxdesignapp;
+package com.globizs.uxdesignapp.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.globizs.uxdesignapp.R;
 
 public class MainActivity extends AppCompatActivity {
 
