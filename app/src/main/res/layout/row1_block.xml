@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="1dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include
+                android:id="@+id/_1"
+                layout="@layout/date_block" />
+
+        </LinearLayout>
+
+        <!--delete this parts-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_2"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_4"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_5"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_6"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#b8cada">
+
+            <include layout="@layout/date_block"
+                android:id="@+id/_7"/>
+
+        </LinearLayout>
+
+        <!--delete this parts-->
+
+    </LinearLayout>
+
+</LinearLayout>

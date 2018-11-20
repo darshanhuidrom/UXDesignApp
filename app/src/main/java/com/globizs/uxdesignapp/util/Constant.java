@@ -56,6 +56,9 @@ public class Constant {
     static List<Spot> spots = null;
     static public LatLng DEFAULT_LATLNG = new LatLng(24.807484, 93.942592);
 
+    static public String[] MONTH_NAMES = {"January", "February", "March", "April",
+            "May", "June", "July", "August", "September",
+            "October", "November", "December"};
     public static List<Spot> getSpotsFromJson() {
 
         if (spots == null) {
