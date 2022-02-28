@@ -15,6 +15,7 @@ public class AndroidBottomSheetActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_android_bottom_sheet);
+        //Some comments have added in order to test commit and push on 2:20 pm 28 feb 2022
 
         // get the bottom sheet view
         LinearLayout llBottomSheet = (LinearLayout) findViewById(R.id.bottom_sheet);
