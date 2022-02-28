@@ -22,7 +22,7 @@ public class CalenderAdapter extends RecyclerView.Adapter<CalenderAdapter.Custom
     public static String TAG= CalenderAdapter.class.getSimpleName();
     private List<DateData> dateDataList;
     private int startOfTheWeek;
-
+// adding comments to check commits
     public CalenderAdapter(Context context, List<DateData> dateDataList, RvAdapterClickListener listener) {
         this.context = context;
         this.rvAdapterClickListener=listener;
